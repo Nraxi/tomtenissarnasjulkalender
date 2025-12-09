@@ -74,7 +74,7 @@ const elfActions = [
   "En Tomtenisse som blir påkommen av Rudolf när han försöker stjäla julklapparna ifrån tomten!",
 ];
 
-// --- Snöanimation ---
+// --- Snöanimation ---das
 function Snow() {
   const snowflakes = Array.from({ length: 50 }, (_, i) => ({
     id: i,
