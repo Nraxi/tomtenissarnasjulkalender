@@ -39,13 +39,13 @@ const doorImages = importDoorImages();
 const elfImages = importElfImages();
 
 // --- Kollar om dagen är upplåst ---
-function isDayUnlocked(day) {
-  const now = new Date();
-  return now.getMonth() === 11 && now.getDate() >= day;
-}
 // function isDayUnlocked(day) {
-//   return true; // ALLA luckor upplåsta
+//   const now = new Date();
+//   return now.getMonth() === 11 && now.getDate() >= day;
 // }
+function isDayUnlocked(day) {
+  return true; // ALLA luckor upplåsta
+}
 // --- Elf Actions ---
 const elfActions = [
   "En Tomtenisse som jonglerar med polkagrisar!",
